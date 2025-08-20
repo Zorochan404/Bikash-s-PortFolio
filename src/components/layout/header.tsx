@@ -18,7 +18,7 @@ const navItems = [
     },
     {
         path: "#whyus",
-        name: "Why Us?",
+        name: "Features",
     },
     {
         path: "#faq",

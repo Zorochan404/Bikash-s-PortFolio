@@ -75,7 +75,7 @@ export default function Home() {
     return (
         <div>
             <div className="py-24 lg:py-48 font-sans mx-4 lg:mx-0 min-h-screen">
-                <div className="text-4xl lg:text-6xl font-bold text-center font-['Bebas_Neue'] tracking-normal">
+                <div className="text-5xl lg:text-6xl font-bold text-center font-['Bebas_Neue'] tracking-normal">
                     <span className="text-white">Bespoke video</span>
                     <span className="text-[#9929EA] font-['Dancing_Script']"> storytelling</span>
                     <span className="text-white">  and multi-platform amplification for creators and businesses</span>
