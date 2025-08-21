@@ -74,11 +74,11 @@ export default function Home() {
 
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className="py-24 lg:py-48 font-poppins mx-4 lg:mx-0 min-h-screen flex flex-col items-center ">
-                <div className="text-5xl lg:text-8xl font-bold text-center font-['Bebas_Neue'] tracking-normal">
-                    <span className="text-white">Bespoke video</span>
-                    <span className="text-[#9929EA] font-['Dancing_Script']"> storytelling</span>
-                    <span className="text-white">  and multi-platform amplification for creators and businesses</span>
+            <div className="py-24  font-poppins mx-4 lg:mx-0 min-h-screen flex flex-col items-center ">
+                <div className="text-5xl lg:text-8xl font-normal text-center font-['Bebas_Neue'] tracking-normal">
+                    <span className="text-white font-hilmar">We create strategic</span>
+                    <span className="text-[#9929EA] font-['Dancing_Script']"> content,</span>
+                    <span className="text-white">  carefully crafted and amplified across platforms for maximum reach and impact</span>
                 </div>
                 <div className="text-center text-zinc-400 text-xs lg:text-lg mt-4 tracking-tight font-poppins w-[80%]">
                     Cut through the digital noise with professionally crafted content that not only stops the scroll and captures attention, but also sparks curiosity, drives engagement, and starts meaningful conversations. Our approach goes beyond surface-level impressions — we focus on building trust, creating value, and fostering lasting connections with your audience across every platform where they spend their time.
@@ -103,9 +103,9 @@ export default function Home() {
 
             <div className="mx-4 lg:mx-0 min-h-screen">
                 <div className="text-4xl lg:text-6xl font-bold text-center tracking-normal">
-                    <div className="text-[#9929EA] font-['Bebas_Neue']">Introducing Us</div>
+                    <div className="text-[#9929EA] font-[Bebas_Neue]">Introducing Us</div>
                     <br />
-                    <div className="text-white text-2xl lg:text-4xl font-poppins tracking-tighter">
+                    <div className="text-white text-2xl lg:text-4xl font-poppins font-light">
                         We craft visually stunning videos that turn your brand&apos;s genuine moments into extraordinary stories, designed specifically for your identity and built to elevate your entire digital presence
                     </div>
 

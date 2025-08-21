@@ -54,7 +54,9 @@ export default function RootLayout({
           {/* Main Content Area */}
           <div className="flex-1 relative w-full flex items-center justify-center">
             <div className="fixed inset-0 w-full h-full">
-              <DarkVeil />
+              <DarkVeil
+                noiseIntensity={0.25}
+              />
             </div>
 
             {/* Content */}
