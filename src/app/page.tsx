@@ -14,13 +14,13 @@ import Contact from "./contact/page";
 const project = [
     {
         id: "1",
-        name: "Project 1",
+        name: "rickycarruth",
         description: "Description 1",
         video: "https://res.cloudinary.com/dobngibkc/video/upload/v1755697915/Video-162_frgzsr.mp4",
         videoAlt: "Project 1 Video",
-        clientName: "Acme Corp",
-        views: "2.50",
-        link: "https://www.google.com",
+        clientName: "Ricky Carruth",
+        views: "365",
+        link: "https://www.instagram.com/reel/DL6A-GiJ4Zg/?igsh=MXNxYjhpYno5bWZzOA==",
 
     },
     {
@@ -29,9 +29,9 @@ const project = [
         description: "Description 2",
         video: "https://res.cloudinary.com/dobngibkc/video/upload/v1755697905/Video-211_gkor7d.mp4",
         videoAlt: "Project 2 Video",
-        clientName: "TechStart Inc",
-        views: "1.8M",
-        link: "https://www.google.com",
+        clientName: "Joey",
+        views: "997",
+        link: "https://www.instagram.com/reel/DHYDpXxzF1U/?igsh=MWZ1bWljOXp0ejIxOA==",
     },
     {
         id: "3",
@@ -39,9 +39,9 @@ const project = [
         description: "Description 2",
         video: "https://res.cloudinary.com/dobngibkc/video/upload/v1755697917/Video-343_ucl6zr.mp4",
         videoAlt: "Project 2 Video",
-        clientName: "TechStart Inc",
-        views: "1.8M",
-        link: "https://www.google.com",
+        clientName: "Swaggy C",
+        views: "126",
+        link: "https://www.instagram.com/reel/DLyX1YVySP0/?igsh=MWY3eHAybHh6czg5",
     },
     {
         id: "4",
@@ -49,9 +49,9 @@ const project = [
         description: "Description 2",
         video: "https://res.cloudinary.com/dobngibkc/video/upload/v1755697918/Video-598_ilpedo.mp4",
         videoAlt: "Project 2 Video",
-        clientName: "TechStart Inc",
-        views: "1.8M",
-        link: "https://www.google.com",
+        clientName: "Nicol Stanzel",
+        views: "502",
+        link: "https://www.instagram.com/reel/DMCyzN9sFTc/?igsh=MTFwZ3QxYzd1cTZkdw==",
     },
 ];
 
@@ -173,7 +173,7 @@ export default function Home() {
                                             {project.clientName}
                                         </h3>
                                         <span className="text-xs text-zinc-400 flex items-center gap-1">
-                                            <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                            <svg className="w-3 h-3 text-[#9929EA]" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
                                                 <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" />
                                             </svg>
@@ -184,9 +184,9 @@ export default function Home() {
                                                     separator=","
                                                     direction="up"
                                                     duration={1}
-                                                    className="count-up-text"
+                                                    className=" text-[#9929EA] text-lg"
                                                 />
-                                                <div className="text-gray-400 text-xs">M</div>
+                                                <div className=" text-lg text-[#9929EA]">K</div>
 
                                             </div>
 

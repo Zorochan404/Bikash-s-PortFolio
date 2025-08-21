@@ -2,10 +2,10 @@ import FlowingMenu from '@/components/layout/flowingmenu';
 import React from 'react'
 
 const demoItems = [
-    { text: 'Mojave', image: 'https://picsum.photos/600/400?random=1' },
-    { text: 'Sonoma', image: 'https://picsum.photos/600/400?random=2' },
-    { text: 'Monterey', image: 'https://picsum.photos/600/400?random=3' },
-    { text: 'Sequoia', image: 'https://picsum.photos/600/400?random=4' }
+    { text: '24*7 support', image: 'https://picsum.photos/600/400?random=1' },
+    { text: 'Quick Revisions', image: 'https://picsum.photos/600/400?random=2' },
+    { text: 'Flexible Timings', image: 'https://picsum.photos/600/400?random=3' },
+    { text: 'Growth Analysis', image: 'https://picsum.photos/600/400?random=4' }
 ];
 
 export default function WhyUs() {

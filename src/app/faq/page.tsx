@@ -18,18 +18,7 @@ export default function FAQs() {
             question: "Why an in-house team might not be the best option for you.",
             answer: "Building an in-house video team requires significant investment in equipment, software, training, and ongoing costs. You&apos;d need to hire multiple specialists (editors, motion graphics artists, strategists) and manage them full-time. With us, you get professional quality work without the overhead, and you only pay for what you need. Plus, we stay current with the latest trends and techniques."
         },
-        {
-            question: "What platforms do you work with?",
-            answer: "We create content optimized for all major social media platforms including Instagram, TikTok, YouTube, LinkedIn, Facebook, and Twitter. Each platform has different requirements and best practices, and we ensure your content is perfectly tailored for maximum engagement on each one."
-        },
-        {
-            question: "How long does it take to get my content?",
-            answer: "Our typical turnaround time is 3-5 business days for standard content. For rush projects, we offer expedited services. We&apos;ll always communicate timelines clearly and keep you updated throughout the process. We believe in quality over speed, but we&apos;re also committed to meeting your deadlines."
-        },
-        {
-            question: "What if I&apos;m not happy with the content?",
-            answer: "We offer unlimited revisions until you&apos;re completely satisfied. Your happiness is our priority, and we want you to love the final product. We work closely with you throughout the process to ensure we&apos;re aligned with your vision and brand guidelines."
-        }
+
     ];
 
     const toggleFAQ = (index: number) => {
