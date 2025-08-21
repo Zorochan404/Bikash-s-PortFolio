@@ -15,7 +15,7 @@ export default function WhyUs() {
                 <h2 className="text-4xl lg:text-6xl font-['Bebas_Neue'] text-[#9929EA] tracking-tight">Why Us?</h2>
                 <br />
                 <br />
-                <div className="text-white text-2xl lg:text-4xl font-sans font-bold tracking-tighter">
+                <div className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-tighter">
                     We handle everything, from content creation to platform adaptation.
                 </div>
             </div>

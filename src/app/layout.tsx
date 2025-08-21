@@ -58,7 +58,7 @@ export default function RootLayout({
             </div>
 
             {/* Content */}
-            <div className="relative z-10 w-full h-full lg:w-[55%] flex items-start">
+            <div className="relative z-10 w-full h-full  flex items-start">
               {children}
             </div>
           </div>

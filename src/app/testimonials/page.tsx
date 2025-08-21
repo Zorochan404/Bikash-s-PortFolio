@@ -53,7 +53,7 @@ export default function Testimonials() {
                 <h2 className="text-4xl lg:text-6xl font-['Bebas_Neue'] text-[#9929EA] tracking-tight">Customer Stories</h2>
                 <br />
                 <br />
-                <div className="text-white text-2xl lg:text-4xl font-sans font-bold tracking-tighter">
+                <div className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-tighter">
                     Game changer! Helped me connect with my audience like never before
                 </div>
             </div>
@@ -97,7 +97,7 @@ export default function Testimonials() {
                                 <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" />
                             </svg>
                         </div>
-                        <h3 className="text-2xl font-bold text-white font-sans">Our impact in numbers</h3>
+                        <h3 className="text-2xl font-bold text-white font-poppins">Our impact in numbers</h3>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -109,9 +109,9 @@ export default function Testimonials() {
                                 separator=","
                                 direction="up"
                                 duration={1}
-                                className="text-xl"
+                                className="text-xl text-white"
                             />
-                            <div className="text-gray-400 text-lg">Videos created</div>
+                            <div className="text-white text-lg">Videos created</div>
                             <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-px h-16 bg-white/10 hidden md:block"></div>
                         </div>
 
@@ -123,9 +123,9 @@ export default function Testimonials() {
                                 separator=","
                                 direction="up"
                                 duration={1}
-                                className="text-xl"
+                                className="text-xl text-white"
                             />
-                            <div className="text-gray-400 text-lg">Million+ views</div>
+                            <div className="text-white text-lg">Million+ views</div>
                             <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-px h-16 bg-white/10 hidden md:block"></div>
                         </div>
 
@@ -137,9 +137,9 @@ export default function Testimonials() {
                                 separator=","
                                 direction="up"
                                 duration={1}
-                                className="text-xl"
+                                className="text-xl text-white"
                             />
-                            <div className="text-gray-400 text-lg">Total Viewcount (hrs)</div>
+                            <div className="text-white text-lg">Total Viewcount (hrs)</div>
                         </div>
                     </div>
                 </div>

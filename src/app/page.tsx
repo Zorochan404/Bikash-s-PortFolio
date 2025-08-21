@@ -73,20 +73,20 @@ export default function Home() {
     };
 
     return (
-        <div>
-            <div className="py-24 lg:py-48 font-sans mx-4 lg:mx-0 min-h-screen">
-                <div className="text-5xl lg:text-6xl font-bold text-center font-['Bebas_Neue'] tracking-normal">
+        <div className="flex flex-col justify-center items-center">
+            <div className="py-24 lg:py-48 font-poppins mx-4 lg:mx-0 min-h-screen flex flex-col items-center ">
+                <div className="text-5xl lg:text-8xl font-bold text-center font-['Bebas_Neue'] tracking-normal">
                     <span className="text-white">Bespoke video</span>
                     <span className="text-[#9929EA] font-['Dancing_Script']"> storytelling</span>
                     <span className="text-white">  and multi-platform amplification for creators and businesses</span>
                 </div>
-                <div className="text-center text-zinc-400 text-md mt-4 tracking-tight font-sans">
-                    Cut through the digital noise with professionally crafted content that stops the scroll, captures attention, and starts meaningful conversations that build lasting connections with your audience
+                <div className="text-center text-zinc-400 text-xs lg:text-lg mt-4 tracking-tight font-poppins w-[80%]">
+                    Cut through the digital noise with professionally crafted content that not only stops the scroll and captures attention, but also sparks curiosity, drives engagement, and starts meaningful conversations. Our approach goes beyond surface-level impressions — we focus on building trust, creating value, and fostering lasting connections with your audience across every platform where they spend their time.
                 </div>
 
                 <div className="flex justify-center items-center mt-4">
                     <div className="text-center text-zinc-400 text-md mt-4 border border-zinc-400/20 rounded-full px-4 py-2 transition-all duration-300 ease-in-out hover:scale-120 hover:bg-zinc-400/10 cursor-pointer backdrop-blur-md bg-zinc-900/100 ">
-                        <ShinyText text="Book a call" disabled={false} speed={5} className="font-sans text-md pointer-events-auto" />
+                        <ShinyText text="Book a call" disabled={false} speed={5} className="font-poppins text-md pointer-events-auto" />
                     </div>
                 </div>
                 <br />
@@ -105,12 +105,12 @@ export default function Home() {
                 <div className="text-4xl lg:text-6xl font-bold text-center tracking-normal">
                     <div className="text-[#9929EA] font-['Bebas_Neue']">Introducing Us</div>
                     <br />
-                    <div className="text-white text-2xl lg:text-4xl font-sans tracking-tighter">
+                    <div className="text-white text-2xl lg:text-4xl font-poppins tracking-tighter">
                         We craft visually stunning videos that turn your brand&apos;s genuine moments into extraordinary stories, designed specifically for your identity and built to elevate your entire digital presence
                     </div>
 
                     {/* Updated grid for Instagram Reel format */}
-                    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+                    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 mx-4">
                         {project.map((project: { id: string; name: string; description: string; video: string; videoAlt: string; clientName: string; views: string; link: string; }) => (
                             <div
                                 key={project.id}

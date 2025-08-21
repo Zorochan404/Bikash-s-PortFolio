@@ -22,18 +22,18 @@ export default function Works() {
     ];
 
     return (
-        <section className="w-full mx-auto px-4 md:px-6 py-14">
+        <section className="w-full mx-auto px-4 md:px-6 py-14 flex flex-col items-center">
             <div className="text-center mb-10">
                 <div className="text-4xl lg:text-6xl font-['Bebas_Neue'] text-[#9929EA] tracking-tight">How it works</div>
                 <br />
                 <br />
-                <div className="text-white text-2xl lg:text-4xl font-sans font-bold tracking-tighter">
+                <div className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-tighter">
                     We handle everything, from content creation to platform adaptation.
                 </div>
             </div>
 
             {/* Grid of 3 perfect squares with GlareHover */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pointer-events-auto">
+            <div className="grid grid-cols-1  lg:grid-cols-3 gap-6 pointer-events-auto">
                 {items.map(({ title, desc, Icon }, i) => (
                     <GlareHover
                         key={i}
@@ -43,7 +43,7 @@ export default function Works() {
                         glareSize={300}
                         transitionDuration={800}
                         playOnce={false}
-                        className="group block w-full aspect-square rounded-none border border-neutral-200/70 dark:border-neutral-800 bg-white/60 dark:bg-neutral-900/60 backdrop-blur-sm overflow-hidden flex justify-start items-start"
+                        className="group block w-full aspect-square rounded-none border border-neutral-200/70 dark:border-neutral-800 bg-white/60 dark:bg-neutral-900/60 backdrop-blur-sm overflow-hidden flex justify-start items-between"
                     /** If GlareHover supports props like color/strength, you can tweak: */
                     // color="#c084fc"
                     // strength={0.35}
@@ -51,10 +51,10 @@ export default function Works() {
                         <div className="inset-0 pointer-events-none bg-[radial-gradient(50%_50%_at_50%_0%,rgba(255,255,255,0.65),rgba(255,255,255,0)_60%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                         <div className="h-full flex flex-col items-start justify-start p-6 md:p-7">
                             <div className="mb-4 inline-flex p-3 rounded-md border border-neutral-200/70 dark:border-neutral-800 bg-white/70 dark:bg-neutral-950/70">
-                                <Icon className="w-6 h-6 shrink-0 flex items-center justify-center" strokeWidth={1.5} />
+                                <Icon className="w-6 h-6 shrink-0 flex items-center justify-center text-white" strokeWidth={1.5} />
                             </div>
-                            <h3 className="text-xl font-semibold leading-tight">{title}</h3>
-                            <p className="mt-2 text-sm text-muted-foreground">{desc}</p>
+                            <h3 className="text-xl font-semibold leading-tight text-white">{title}</h3>
+                            <p className="mt-2 text-sm text-muted-foreground text-white">{desc}</p>
                         </div>
 
                         {/* Subtle border glow on hover */}
