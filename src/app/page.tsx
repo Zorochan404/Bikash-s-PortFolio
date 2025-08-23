@@ -74,11 +74,11 @@ export default function Home() {
 
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className="py-8 font-poppins mx-4 lg:mx-0 min-h-screen flex flex-col items-center ">
-                <div className="text-5xl lg:text-8xl font-normal text-center tracking-normal">
-                    <span className="text-white font-['Bebas_Neue']">We create strategic</span>
-                    <span className="text-[#9929EA] font-['Dancing_Script']"> content,</span>
-                    <span className="text-white font-['Bebas_Neue']">  carefully crafted and amplified across platforms for maximum reach and impact</span>
+            <div className="py-8 lg:py-24 font-poppins mx-4 lg:mx-0 min-h-screen flex flex-col items-center ">
+                <div className="text-4xl lg:text-[6rem] font-normal text-center tracking-normal">
+                    <span className="text-white font-['Bebas_Neue']">tailored production and </span>
+                    <span className="text-[#9929EA] font-['Dancing_Script']"> distribution </span>
+                    <span className="text-white font-['Bebas_Neue']">   for founders and creators</span>
                 </div>
                 <div className="text-center text-zinc-400 text-xs lg:text-lg mt-4 tracking-normal font-poppins w-[80%]">
                     Cut through the digital noise with professionally crafted content that not only stops the scroll and captures attention, but also sparks curiosity, drives engagement, and starts meaningful conversations. Our approach goes beyond surface-level impressions — we focus on building trust, creating value, and fostering lasting connections with your audience across every platform where they spend their time.
