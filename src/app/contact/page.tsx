@@ -106,7 +106,7 @@ export default function Contact() {
                         Message Sent!
                     </h2>
                     <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-                        Thank you for reaching out! We'll get back to you within 24 hours.
+                        Thank you for reaching out! We&apos;ll get back to you within 24 hours.
                     </p>
                     <button
                         onClick={() => setIsSubmitted(false)}
@@ -133,7 +133,7 @@ export default function Contact() {
                         Get in Touch
                     </div>
                     <p className="text-gray-400 text-md max-w-3xl mx-auto">
-                        Ready to transform your digital presence? Let's discuss your project and how we can help bring your vision to life.
+                        Ready to transform your digital presence? Let&apos;s discuss your project and how we can help bring your vision to life.
                     </p>
                 </motion.div>
 
@@ -143,10 +143,10 @@ export default function Contact() {
                     <motion.div variants={itemVariants} className="space-y-8">
                         <div>
                             <h2 className="text-3xl font-bold text-gray-200 mb-6 font-['Bebas_Neue']">
-                                Let's Connect
+                                Let&apos;s Connect
                             </h2>
                             <p className="text-gray-400 text-md mb-8">
-                                Whether you have a specific project in mind or just want to explore possibilities, we're here to help.
+                                Whether you have a specific project in mind or just want to explore possibilities, we&apos;re here to help.
                             </p>
                         </div>
 
@@ -254,7 +254,7 @@ export default function Contact() {
                                     rows={5}
                                     className={`w-full px-4 text-white py-3 bg-white/5 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9929EA] transition-all duration-200 resize-none ${errors.message ? 'border-red-500' : 'border-gray-700'
                                         }`}
-                                    placeholder="Tell us about your project, goals, and what you're looking to achieve..."
+                                    placeholder="Tell us about your project, goals, and what you&apos;re looking to achieve..."
                                 />
                                 {errors.message && (
                                     <p className="text-red-400 text-sm mt-1">{errors.message}</p>

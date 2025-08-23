@@ -80,7 +80,6 @@ const CTAButton: React.FC<CTAButtonProps> = ({
 );
 
 export default function Header() {
-    const pathname = usePathname() || "/";
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
     // Refs for GSAP animations
