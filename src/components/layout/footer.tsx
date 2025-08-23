@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export function Footer() {
@@ -30,10 +29,8 @@ export function Footer() {
     return (
         <footer className="flex px-4 py-4 justify-center gap-6 items-center w-full border-t border-stone-800/90">
             <div className="w-full lg:w-[55%] flex justify-between">
-                <Link href="https://jyotirmxy.vercel.app/" target="_blank">
-                    <p className="leading-none m-0">made by FlexFolio</p>
-                </Link>
-                <p className="leading-none m-0 text-[0.90rem]">{formattedTime}</p>
+                <p className="leading-none m-0 text-white">made by FlexFolio</p>
+                <p className="leading-none m-0 text-[0.90rem] text-white">{formattedTime}</p>
             </div>
         </footer>
     );

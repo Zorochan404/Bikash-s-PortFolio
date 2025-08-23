@@ -74,20 +74,24 @@ export default function Home() {
 
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className="py-24  font-poppins mx-4 lg:mx-0 min-h-screen flex flex-col items-center ">
-                <div className="text-5xl lg:text-8xl font-normal text-center font-['Bebas_Neue'] tracking-normal">
-                    <span className="text-white font-hilmar">We create strategic</span>
+            <div className="py-8 font-poppins mx-4 lg:mx-0 min-h-screen flex flex-col items-center ">
+                <div className="text-5xl lg:text-8xl font-normal text-center tracking-normal">
+                    <span className="text-white font-['Bebas_Neue']">We create strategic</span>
                     <span className="text-[#9929EA] font-['Dancing_Script']"> content,</span>
-                    <span className="text-white">  carefully crafted and amplified across platforms for maximum reach and impact</span>
+                    <span className="text-white font-['Bebas_Neue']">  carefully crafted and amplified across platforms for maximum reach and impact</span>
                 </div>
-                <div className="text-center text-zinc-400 text-xs lg:text-lg mt-4 tracking-tight font-poppins w-[80%]">
+                <div className="text-center text-zinc-400 text-xs lg:text-lg mt-4 tracking-normal font-poppins w-[80%]">
                     Cut through the digital noise with professionally crafted content that not only stops the scroll and captures attention, but also sparks curiosity, drives engagement, and starts meaningful conversations. Our approach goes beyond surface-level impressions — we focus on building trust, creating value, and fostering lasting connections with your audience across every platform where they spend their time.
                 </div>
 
                 <div className="flex justify-center items-center mt-4">
-                    <div className="text-center text-zinc-400 text-md mt-4 border border-zinc-400/20 rounded-full px-4 py-2 transition-all duration-300 ease-in-out hover:scale-120 hover:bg-zinc-400/10 cursor-pointer backdrop-blur-md bg-zinc-900/100 ">
-                        <ShinyText text="Book a call" disabled={false} speed={5} className="font-poppins text-md pointer-events-auto" />
-                    </div>
+                    <Link href="#contact">
+
+                        <div className="text-center text-zinc-400 text-md mt-4 border border-zinc-400/20 rounded-full px-4 py-2 transition-all duration-300 ease-in-out hover:scale-120 hover:bg-zinc-400/10 cursor-pointer backdrop-blur-md bg-zinc-900/100 ">
+                            <ShinyText text="Get in touch" disabled={false} speed={5} className="font-poppins text-md pointer-events-auto" />
+                        </div>
+                    </Link>
+
                 </div>
                 <br />
                 <br />
@@ -103,7 +107,7 @@ export default function Home() {
 
             <div className="mx-4 lg:mx-0 min-h-screen">
                 <div className="text-4xl lg:text-6xl font-bold text-center tracking-normal">
-                    <div className="text-[#9929EA] font-[Bebas_Neue]">Introducing Us</div>
+                    <div className="text-4xl lg:text-6xl font-['Bebas_Neue'] text-[#9929EA] tracking-normal">Introducing Us</div>
                     <br />
                     <div className="text-white text-2xl lg:text-4xl font-poppins font-light">
                         We craft visually stunning videos that turn your brand&apos;s genuine moments into extraordinary stories, designed specifically for your identity and built to elevate your entire digital presence

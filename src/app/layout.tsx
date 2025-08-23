@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Bebas_Neue, Geist, Geist_Mono, Dancing_Script } from "next/font/google";
 import "./globals.css";
 import DarkVeil from "@/components/layout/background";
-import NavBar from "@/components/layout/header";
+import Header from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 
 const geistSans = Geist({
@@ -45,14 +45,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${bebasNeue.variable} ${dancingScript.variable} antialiased`}
       >
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen flex flex-col ">
           {/* Header */}
-          <div className="fixed top-5 z-50 w-full lg:w-[40%] left-1/2 transform -translate-x-1/2">
-            <NavBar />
-          </div>
+          <Header />
 
           {/* Main Content Area */}
-          <div className="flex-1 relative w-full flex items-center justify-center">
+          <div className="flex-1 relative w-full flex items-center justify-center pt-16">
             <div className="fixed inset-0 w-full h-full">
               <DarkVeil
                 noiseIntensity={0.25}
@@ -60,7 +58,7 @@ export default function RootLayout({
             </div>
 
             {/* Content */}
-            <div className="relative z-10 w-full h-full  flex items-start">
+            <div className="relative z-10 w-full h-full flex items-start">
               {children}
             </div>
           </div>
@@ -68,7 +66,7 @@ export default function RootLayout({
           {/* Footer */}
           <div className="relative z-10">
             {/* <Footer /> */}
-            <div className="relative z-10">
+            <div className="relative z-1000">
               <Footer />
             </div>
           </div>

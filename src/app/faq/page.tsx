@@ -33,7 +33,7 @@ export default function FAQs() {
 
                     <h2 className="text-4xl lg:text-6xl font-bold text-[#9929EA] font-['Bebas_Neue']">Frequently Asked Questions</h2>
                 </div>
-                <h3 className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-tighter">We&apos;ve got the answers</h3>
+                <h3 className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-normaler">We&apos;ve got the answers</h3>
 
 
             </div>

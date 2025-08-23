@@ -51,10 +51,10 @@ export default function Testimonials() {
     return (
         <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-14">
             <div className="text-center mb-16">
-                <h2 className="text-4xl lg:text-6xl font-['Bebas_Neue'] text-[#9929EA] tracking-tight">Customer Stories</h2>
+                <h2 className="text-4xl lg:text-6xl font-['Bebas_Neue'] text-[#9929EA] tracking-normal">Customer Stories</h2>
                 <br />
                 <br />
-                <div className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-tighter">
+                <div className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-normaler">
                     Game changer! Helped me connect with my audience like never before
                 </div>
             </div>

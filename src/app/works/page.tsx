@@ -24,10 +24,10 @@ export default function Works() {
     return (
         <section className="w-full mx-auto px-4 md:px-6 py-14 flex flex-col items-center">
             <div className="text-center mb-10">
-                <div className="text-4xl lg:text-6xl font-['Bebas_Neue'] text-[#9929EA] tracking-tight">How it works</div>
+                <div className="text-4xl lg:text-6xl font-['Bebas_Neue'] text-[#9929EA] tracking-normal">How it works</div>
                 <br />
                 <br />
-                <div className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-tighter">
+                <div className="text-white text-2xl lg:text-4xl font-poppins font-bold tracking-normaler">
                     We handle everything, from content creation to platform adaptation.
                 </div>
             </div>
