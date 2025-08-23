@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   title: "Bikash",
   description: "Bikash's Agency portfolio",
   icons: {
-    icon: '../../public/text-1755271211288.png',
+    icon: '/icon.ico',
   },
 };
 
